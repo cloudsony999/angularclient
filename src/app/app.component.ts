@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularclient';
+  
+  title = 'angular client UI';
+
+
+  constructor() {
+    this.title = 'Spring Boot2.6.7 ---- Angular14 Application';
+  }
+
 }
